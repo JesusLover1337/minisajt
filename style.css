@@ -51,8 +51,79 @@ input{
     font-size: 120%;
 }
 
-.backround{
+.container{
+    margin-bottom: 80px;
+    margin-right:35px;
+    margin-left: 35px;
     background-color: rgb(66, 66, 66);
-    display: inline-block;
+    display: flex;
     padding: 20px;
+    align-items: center;
+    border-radius: 10px;    
+}
+
+p{
+    display: inline-block;
+    font-size:x-large;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.sidetext{
+    text-align: center;
+    padding: 20px;
+    margin-left:10px;
+    display: flex;
+    width: 165px;
+    height: 260px;
+    overflow: auto;
+    background-color: gray;
+    display: inline-block;
+}
+
+.sidetext::-webkit-scrollbar {
+    display: none;
+}
+    
+img{
+    display: flex;
+    padding: 15px;
+}
+
+.box{
+    margin: 35px;
+    margin-bottom: 20px;
+    background-color: gray;
+    display: inline-block;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.bottomnav {
+    background-color: rgb(185, 184, 184);
+    position: sticky;
+    justify-content: space-around;
+    display: flex;
+}
+.bottomnav i {
+    display: inline-block;
+    color: rgb(66, 66, 66);
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bottomnav p {
+    display: inline-block;
+    color: rgb(66, 66, 66);
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bottomnav i:hover{
+    background-color: #ddd;
+    color: black;
 }
