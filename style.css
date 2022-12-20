@@ -1,0 +1,58 @@
+
+.topnav {
+    background-color: rgb(185, 184, 184);
+    position: sticky;
+
+}
+.topnav a {
+    display: inline-block;
+    color: rgb(66, 66, 66);
+    padding: 10px 14px;
+    text-decoration: none;
+
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+
+.title {
+    font-size: 35px;
+    display: inline-block;
+    padding: 16px;
+
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    height: 60px;
+}
+
+.searchbar{ 
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    padding: 20px;
+    font-size: 100%;
+    align-items: center;
+}
+   
+input{
+    width: 195px;
+    height: 25px;
+}
+
+#cart{
+    padding-left: 15px;
+    font-size: 120%;
+}
+
+.backround{
+    background-color: rgb(66, 66, 66);
+    display: inline-block;
+    padding: 20px;
+}
