@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://fanart.tv/api/download.php?type=download&image=22710&section=1" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7a6afc2556.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pang Bilar 100%</title>
+</head>
+<body>
+<nav>
+    <div class="topnav">
+        <div class="title">Shop Name
+        </div>
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">New cars</a>    
+        <a href="#contact">Contact</a>
+        <a href="#about">About us</a>
+        <div class = "searchbar">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search..">
+            <i class="fa-sharp fa-solid fa-cart-shopping" id ="cart"></i>  
+        </div>
+    </div>
+</nav>
+
+<article>
+    
+    <div class = "undertitle-con">
+        <div class="undertitle">Toyota AE86</div>
+        <div>Price: $25,000</div>
+    </div>
+
+    <div class ="con2">
+        <ul>
+            <h1>Technical Specifications</h1>
+
+            <button class="button2" style="display: block;" onclick="toggleText1()">Engine<div id="arrow1"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text1" style="display: none;">
+                    <li>Power<span style="float: right;" style ="padding-left:50px ;">96 kW</span></li>
+                    <li>Horsepower<span style="float: right;" style ="padding-left:50px ;">130 hp</span></li>
+                    <li>Rev. at Max Power<span style="float: right;" style ="padding-left:50px ;">6600 rpm</span></li>
+                    <li>Torque<span style="float: right;" style ="padding-left:50px ;">149 Nm</span></li>
+                    <li>Rev. at Max Torque<span style="float: right;" style ="padding-left:50px ;">5200 rpm</span></li>
+                </div>
+                <script>
+                    function toggleText1() {
+                      var text1 = document.getElementById("text1");
+                      if (text1.style.display === "none") {
+                        text1.style.display = "inline-block";
+                        arrow1.style.transform = "rotate(180deg)"
+                      } else {
+                        text1.style.display = "none";
+                        arrow1.style.transform = "rotate(0deg)"
+                      }
+                    }
+                </script>
+
+            <button class="button2" style="display: block;" onclick="toggleText2()">Performance<div id="arrow2"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text2" style="display: none;">
+                    <li>Top Speed<span style="float: right;" style ="padding-left:50px ;">195 km/h</span></li>
+                    <li>Acceleration, 0-100 km/h<span style="float: right;" style ="padding-left:50px ;">9 sec</span></li>
+                    <li>Acceleration, 0-200 km/h<span style="float: right;" style ="padding-left:50px ;">N/A</span></li>
+                    <li>In-gear acceleration (80-120)<span style="float: right;" style ="padding-left:50px ;">7 sec</span></li>
+                    <li>Braking, 100-0 km/h<span style="float: right;" style ="padding-left:50px ;">54 m</span></li>
+                </div>
+                <script>
+                    function toggleText2() {
+                      var text2 = document.getElementById("text2");
+                      if (text2.style.display === "none") {
+                        text2.style.display = "inline-block";
+                        arrow2.style.transform = "rotate(180deg)"
+                      } else {
+                        text2.style.display = "none";
+                        arrow2.style.transform = "rotate(0deg)"
+                      }
+                    }
+                </script>
+
+            <button class="button2" style="display: block;" onclick="toggleText3()">General <div id="arrow3"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text3" style="display: none;">
+                    <li>Fuel<span style="float: right;" style ="padding-left:50px ;">Petrol</span></li>
+                    <li>Tank Volume<span style="float: right;" style ="padding-left:50px ;">50 l</span></li>
+                    <li>Type of Combustion Engine<span style="float: right;" style ="padding-left:50px ;">Piston</span></li>
+                    <li>Cargo Capacity<span style="float: right;" style ="padding-left:50px ;">400 kg</span></li>
+                    <li>Drivetrain<span style="float: right;" style ="padding-left:50px ;">RWD</span></li>
+                </div>
+                <script>
+                    function toggleText3() {
+                      var text3 = document.getElementById("text3");
+                      if (text3.style.display === "none") {
+                        text3.style.display = "inline-block";
+                        arrow3.style.transform = "rotate(180deg)"
+                      } else {
+                        text3.style.display = "none";
+                        arrow3.style.transform = "rotate(0deg)"
+                      }
+                    }
+                </script>
+
+            <button class="button2" style="display: block;" onclick="toggleText4()">Dimensions<div id="arrow4"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text4" style="display: none;">
+                    <li>Length<span style="float: right;" style ="padding-left:50px ;">4285 mm</span></li>
+                    <li>Width<span style="float: right;" style ="padding-left:50px ;">1625 mm</span></li>
+                    <li>Height<span style="float: right;" style ="padding-left:50px ;">1335 mm</span></li>
+                    <li>Wheel Base<span style="float: right;" style ="padding-left:50px ;">2,400 mm</span></li>
+                    <li>Turning Circle<span style="float: right;" style ="padding-left:50px ;">7 m</span></li>
+                </div>
+                <script>
+                    function toggleText4() {
+                      var text4 = document.getElementById("text4");
+                      if (text4.style.display === "none") {
+                        text4.style.display = "inline-block";
+                        arrow4.style.transform = "rotate(180deg)"
+                      } else {
+                        text4.style.display = "none";
+                        arrow4.style.transform = "rotate(0deg)"
+                      }
+                    }
+                </script>
+        </ul>
+    
+        <img class ="blueprint" src="https://drawingdatabase.com/wp-content/uploads/2019/04/Toyota-AE86-Sprinter-Trueno.gif" height="auto"width="600px">
+    </div>
+</article>
+
+<footer>
+    <div class="bottomnav">
+        <div id = "caricon"><i class="fa-solid fa-car-side"></i></div>
+        <i class="fa-brands fa-twitter"><p class = "p1"> Twitter name</p></i>    
+        <i class="fa-sharp fa-solid fa-envelope"><p class = "p1"> gmail.sdiwaj@gmail.se</p></i>
+        <i class="fa-brands fa-instagram"><p class = "p1"> @Shop name</p></i>
+        <div id = "caricon1"><i class="fa-solid fa-car-side"></i></div>
+    </div>
+</footer>
+
+</body>
+</html>

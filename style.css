@@ -1,7 +1,9 @@
 
 .topnav {
     background-color: rgb(185, 184, 184);
-    position:sticky;
+    position:fixed;
+    width: 1265px;   
+    box-shadow: 0 -4px 8px 4px rgb(0, 0, 0, 0.5);
 
 }
 .topnav a {
@@ -67,6 +69,14 @@ p{
     font-weight: bolder;
     margin: 0;
     padding: 0;
+    text-decoration:underline;
+}
+
+a{
+    color: rgb(66, 66, 66);
+}
+a:visited{
+    color: rgb(66, 66, 66);
 }
 
 .sidetext{
@@ -142,7 +152,6 @@ img{
   background-color:black;
   border-radius: 50%;
   display: inline-block;
-  
 
 }
 
@@ -159,11 +168,9 @@ img{
     position: relative;
 }
 
-
 .car:hover .wheels{
     opacity: 1;   
-    transition: opacity;
-    
+    transition: opacity; 
 }
 
 .car:hover, .car:focus {
@@ -180,6 +187,7 @@ img{
     bottom:-60px;
     display: flex; 
 }
+
 #caricon1{
     height: 0px;
     animation-name: spin;
@@ -199,6 +207,74 @@ img{
     to {
         transform:rotate(360deg);
     }
+}
+
+.button2{
+    font-size: large;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    background-color: transparent;
+    border-color:  rgb(66, 66, 66);
+}
+
+.con2{
+    display: flex;
+    padding-top: 15px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+
+}
+
+.blueprint{
+    margin-left:150px;
+}
+
+#arrow1{
+    display: inline-block;
+    margin-left: 10px;
+}
+#arrow2{
+    display: inline-block;
+    margin-left: 10px;
+}
+#arrow3{
+    display: inline-block;
+    margin-left: 10px;
+}
+#arrow4{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul{
+    background-color: rgb(185, 184, 184);
+    width: 350px;
+    height: fit-content;
+    padding-bottom: 25px;
+    border-radius: 10px;  
+}
+
+li{
+    margin-top: 2px;
+    width: 250px;
+    margin-left: 18px;
+    font-size: 17px;
+}
+
+.undertitle{
+    font-size:35px;
+}
+
+.undertitle-con{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    margin-top: 10px;
+    background-color:  rgb(66, 66, 66);
+    color: rgb(185, 184, 184)
 }
 
 
