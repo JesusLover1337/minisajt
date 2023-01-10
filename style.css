@@ -211,6 +211,7 @@ img{
 }
 
 .button2{
+    display: block;
     font-size: large;
     margin-top: 20px;
     border-top: none;
@@ -278,7 +279,23 @@ li{
     color: rgb(185, 184, 184)
 }
 
+.stats{
+    float: right;
+    padding-left:45px;
+}
 
+#text1{
+    display: none;
+}
+#text2{
+    display: none;
+}
+#text3{
+    display: none;
+}
+#text4{
+    display: none;
+}
 
 
     

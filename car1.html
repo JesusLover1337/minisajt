@@ -37,13 +37,13 @@
         <ul>
             <h1>Technical Specifications</h1>
 
-            <button class="button2" style="display: block;" onclick="toggleText1()">Engine<div id="arrow1"><i class="fa-solid fa-angle-up"></i></div></button>
-                <div id="text1" style="display: none;">
-                    <li>Power:<span style="float: right;" style ="padding-left:50px ;">124 kW</span></li>
-                    <li>Horsepower:<span style="float: right;" style ="padding-left:50px ;">169 hp</span></li>
-                    <li>Rev. at Max Power:<span style="float: right;" style ="padding-left:50px ;">6,400 rpm</span></li>
-                    <li>Torque:<span style="float: right;" style ="padding-left:50px ;">212 Nm</span></li>
-                    <li>Rev. at Max Torque:<span style="float: right;" style ="padding-left:50px ;">4,000 rpm</span></li>
+            <button class="button2" onclick="toggleText1()">Engine<div id="arrow1"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text1">
+                    <li>Power:<span class="stats">124 kW</span></li>
+                    <li>Horsepower:<span class="stats">169 hp</span></li>
+                    <li>Rev. at Max Power:<span class="stats">6,400 rpm</span></li>
+                    <li>Torque:<span class="stats">212 Nm</span></li>
+                    <li>Rev. at Max Torque:<span class="stats">4,000 rpm</span></li>
                 </div>
                 <script>
                     function toggleText1() {
@@ -58,13 +58,13 @@
                     }
                 </script>
 
-            <button class="button2" style="display: block;" onclick="toggleText2()">Performance<div id="arrow2"><i class="fa-solid fa-angle-up"></i></div></button>
-                <div id="text2" style="display: none;">
-                    <li>Top Speed:<span style="float: right;" style ="padding-left:50px ;">215 km/h</span></li>
-                    <li>Acceleration, 0-100 km/h:<span style="float: right;" style ="padding-left:50px ;">7.5 sec</span></li>
-                    <li>Acceleration, 0-200 km/h:<span style="float: right;" style ="padding-left:50px ;">40 sec</span></li>
-                    <li>In-gear acceleration (80-120):<span style="float: right;" style ="padding-left:50px ;">5 sec</span></li>
-                    <li>Braking, 100-0 km/h:<span style="float: right;" style ="padding-left:50px ;">40 m</span></li>
+            <button class="button2" onclick="toggleText2()">Performance<div id="arrow2"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text2">
+                    <li>Top Speed:<span class="stats">215 km/h</span></li>
+                    <li>Acceleration 0-100:<span class="stats">7.5 sec</span></li>
+                    <li>Acceleration 0-200:<span class="stats">40 sec</span></li>
+                    <li>Acceleration 80-120:<span class="stats">5 sec</span></li>
+                    <li>Braking, 100-0:<span class="stats">40 m</span></li>
                 </div>
                 <script>
                     function toggleText2() {
@@ -79,13 +79,13 @@
                     }
                 </script>
 
-            <button class="button2" style="display: block;" onclick="toggleText3()">General <div id="arrow3"><i class="fa-solid fa-angle-up"></i></div></button>
-                <div id="text3" style="display: none;">
-                    <li>Fuel:<span style="float: right;" style ="padding-left:50px ;">Petrol</span></li>
-                    <li>Tank Volume:<span style="float: right;" style ="padding-left:50px ;">60 l</span></li>
-                    <li>Combustion Engine:<span style="float: right;" style ="padding-left:50px ;">Piston</span></li>
-                    <li>Cargo Capacity:<span style="float: right;" style ="padding-left:50px ;">485 kg</span></li>
-                    <li>Drivetrain:<span style="float: right;" style ="padding-left:50px ;">RWD</span></li>
+            <button class="button2" onclick="toggleText3()">General <div id="arrow3"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text3">
+                    <li>Fuel:<span class="stats">Petrol</span></li>
+                    <li>Tank Volume:<span class="stats">60 l</span></li>
+                    <li>Combustion Engine:<span class="stats">Piston</span></li>
+                    <li>Cargo Capacity:<span class="stats">485 kg</span></li>
+                    <li>Drivetrain:<span class="stats">RWD</span></li>
                 </div>
                 <script>
                     function toggleText3() {
@@ -100,13 +100,13 @@
                     }
                 </script>
 
-            <button class="button2" style="display: block;" onclick="toggleText4()">Dimensions<div id="arrow4"><i class="fa-solid fa-angle-up"></i></div></button>
-                <div id="text4" style="display: none;">
-                    <li>Length:<span style="float: right;" style ="padding-left:50px ;">4,535 mm</span></li>
-                    <li>Width:<span style="float: right;" style ="padding-left:50px ;">1,690 mm</span></li>
-                    <li>Height:<span style="float: right;" style ="padding-left:50px ;">1,290 mm</span></li>
-                    <li>Wheel Base:<span style="float: right;" style ="padding-left:50px ;">2,475 mm</span></li>
-                    <li>Turning Circle:<span style="float: right;" style ="padding-left:50px ;">9.4 m</span></li>
+            <button class="button2" onclick="toggleText4()">Dimensions<div id="arrow4"><i class="fa-solid fa-angle-up"></i></div></button>
+                <div id="text4">
+                    <li>Length:<span class="stats">4,535 mm</span></li>
+                    <li>Width:<span class="stats">1,690 mm</span></li>
+                    <li>Height:<span class="stats">1,290 mm</span></li>
+                    <li>Wheel Base:<span class="stats">2,475 mm</span></li>
+                    <li>Turning Circle:<span class="stats">9.4 m</span></li>
                 </div>
                 <script>
                     function toggleText4() {
