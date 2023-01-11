@@ -20,9 +20,25 @@
 } 
 
 .title {
-    font-size: 35px;
-    display: inline-block;
+    position: relative;
     padding: 16px;
+    display: inline-block;
+}
+
+.title .letters {
+    font-family: "Oxygen", sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
 }
 
 body{
@@ -70,7 +86,30 @@ p{
     font-weight: bolder;
     margin: 0;
     padding: 0;
-    text-decoration:underline;
+}
+
+.hover-animation{
+    display: inline-block;
+    position: relative;
+    color: rgb(66, 66, 66);
+}
+
+.hover-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(66, 66, 66);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 a{
@@ -109,6 +148,7 @@ img{
     padding: 12px;
     font-size: 30px;
     border-radius: 10px;
+    position: relative;
 }
 
 .bottomnav {
@@ -140,20 +180,28 @@ img{
     display: inline-block;
     position: absolute;
     top:-35px;
-    left:25px;  
+    left:40px;  
     
 }
 
 .dot1{
   position: absolute;
   top:-35px;
-  left:173px;
+  left:155px;
   height: 25px;
   width: 25px;
   background-color:black;
   border-radius: 50%;
   display: inline-block;
+}
 
+.exaust{
+    position: absolute;
+    top:-38px;
+    left:20px;
+    height: 6px;
+    width: 15px;
+    background-color: rgb(66, 66, 66);
 }
 
 .car{
@@ -172,6 +220,16 @@ img{
 .car:hover .wheels{
     opacity: 1;   
     transition: opacity; 
+}
+.car:hover .box{
+    margin-top: 42px;
+    border-top-right-radius: 50px;  
+    border-top-left-radius: 20px;
+    padding-top: 5px; 
+    transition:border-top-right-radius; 
+    transition:border-top-left-radius;
+    transition:padding-top; 
+    transition:margin-top; 
 }
 
 .car:hover, .car:focus {
