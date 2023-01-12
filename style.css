@@ -2,7 +2,7 @@
 .topnav {
     background-color: rgb(185, 184, 184);
     position:fixed;
-    width: 1265px;   
+    width: 100%;   
     box-shadow: 0 -4px 8px 4px rgb(0, 0, 0, 0.5);
     z-index: 1;
 }
@@ -71,14 +71,15 @@ input{
 }
 
 .container{
-    margin-bottom: 80px;
-    margin-right:35px;
-    margin-left: 35px;
+    margin-bottom: 60px;
+    margin-right: 5%;
+    margin-left: 5%;
     background-color: rgb(66, 66, 66);
     display: flex;
     padding: 20px;
     align-items: center;
-    border-radius: 10px;    
+    border-radius: 10px;
+
 }
 
 p{
@@ -123,15 +124,58 @@ a:visited{
 .sidetext{
     text-align: center;
     padding: 20px;
-    margin-left:10px;
-    display: flex;
-    width: 165px;
-    height: 260px;
-    overflow: auto;
+    
     background-color: gray;
     display: inline-block;
+    margin-left:10px;
+    margin-right: 0px;
+
 }
 
+@media screen and (min-width: 1500px) {
+
+
+.sidetext {
+    font-size: x-large;
+    max-width: 450px;
+    min-height: 450px;
+    max-height: 500px;
+    overflow: auto;
+}
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1500px) {
+
+  .sidetext {
+    max-height: 250px;
+    font-size: medium;
+    overflow: auto;
+    margin-left:10px;
+    margin-right: 0px;
+    
+    
+  }
+}
+@media screen and (max-width: 1250px) {
+    .container {
+      flex-direction: column;
+    }
+    .sidetext {
+        height: 100px;
+        overflow: auto;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 10px;
+      }
+  }
+
+@media screen and (max-width: 750px) {
+    .p1{
+        display: none;
+    }
+}
+
+  
 .sidetext::-webkit-scrollbar {
     display: none;
 }
@@ -142,6 +186,7 @@ img{
 }
 
 .box{
+    margin-left: 5%;
     margin: 35px;
     margin-bottom: 20px;
     background-color: gray;
@@ -154,10 +199,11 @@ img{
 
 .bottomnav {
     background-color: rgb(185, 184, 184);
-    position: sticky;
+    position:relative;
     justify-content: space-around;
     display: flex;
     height: 120px;
+    bottom:0px;
 }
 .bottomnav i {
     display: flex;
@@ -225,7 +271,7 @@ img{
 .car:hover .box{
     margin-top: 42px;
     border-top-right-radius: 50px;  
-    border-top-left-radius: 20px;
+    border-top-left-radius: 25px;
     padding-top: 5px; 
     transition:border-top-right-radius; 
     transition:border-top-left-radius;
