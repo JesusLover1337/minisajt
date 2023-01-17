@@ -62,7 +62,6 @@ nav{
     display: inline-block;
     padding: 20px;
     font-size: 100%;
-    align-items: center;
 }
    
 input{
@@ -129,11 +128,8 @@ a:visited{
 .sidetext{
     text-align: center;
     padding: 20px;
-    
     background-color: gray;
     display: inline-block;
-    margin-left:10px;
-    margin-right: 0px;
 
 }
 
@@ -205,7 +201,6 @@ img{
 }
 
 .box{
-    margin-left: 5%;
     margin: 35px;
     margin-bottom: 10%;
     background-color: gray;
