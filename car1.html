@@ -25,9 +25,9 @@
           <span class="letters" style="--i:10">r</span>
         </div>
         <a class="active" href="index.html">Home</a>
-        <a href="#news">New cars</a>    
-        <a href="#contact">Contact</a>
-        <a href="#about">About us</a>
+        <a class="header-links" href="#news">New cars</a>    
+        <a class="header-links" href="#contact">Contact</a>
+        <a class="header-links" href="#about">About us</a>
         <div class = "searchbar">
             <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Search..">
@@ -51,9 +51,9 @@
                 <div id="text1">
                     <li>Power:<span class="stats">124 kW</span></li>
                     <li>Horsepower:<span class="stats">169 hp</span></li>
-                    <li>Rev. at Max Power:<span class="stats">6,400 rpm</span></li>
+                    <li> Max Rev:<span class="stats">6,400 rpm</span></li>
                     <li>Torque:<span class="stats">212 Nm</span></li>
-                    <li>Rev. at Max Torque:<span class="stats">4,000 rpm</span></li>
+                    <li>Rev Max Torque:<span class="stats">4,000 rpm</span></li>
                 </div>
                 <script>
                     function toggleText1() {
@@ -77,7 +77,7 @@
                     <li>Braking, 100-0:<span class="stats">40 m</span></li>
                 </div>
                 <script>
-                    function toggleText2() {
+              function toggleText2() {
                       var text2 = document.getElementById("text2");
                       if (text2.style.display === "none") {
                         text2.style.display = "inline-block";
@@ -85,7 +85,7 @@
                       } else {
                         text2.style.display = "none";
                         arrow2.style.transform = "rotate(0deg)"
-                      }
+                      }      
                     }
                 </script>
 
@@ -132,7 +132,7 @@
                 </script>
         </ul>
     
-        <img class ="blueprint" src="https://drawingdatabase.com/wp-content/uploads/2014/04/nissan_200sx.gif" height="auto"width="600px">
+        <img class ="blueprint" src="https://drawingdatabase.com/wp-content/uploads/2014/04/nissan_200sx.gif" height="auto"width="50%">
     </div>
 </article>
 
